@@ -1,0 +1,115 @@
+{
+  "fmkType": 0,
+  "inputIndex": [
+    0
+  ],
+  "outputIndex": [
+    3
+  ],
+  "mempoolSize": 0,
+  "nodes": [
+    {
+      "name": "FullyConnected-0",
+      "nodeType": "CNode",
+      "primitive": {
+        "value_type": "FullConnection",
+        "value": {
+          "hasBias": true,
+          "axis": 1,
+          "useAxis": false,
+          "activationType": "NO_ACTIVATION"
+        }
+      },
+      "inputIndex": [
+        0,
+        1,
+        2
+      ],
+      "outputIndex": [
+        3
+      ],
+      "quantType": "QUANT_NONE"
+    }
+  ],
+  "allTensors": [
+    {
+      "nodeType": "ValueNode",
+      "dataType": 43,
+      "dims": [
+        4,
+        2
+      ],
+      "format": "NHWC",
+      "refCount": 0,
+      "offset": 0
+    },
+    {
+      "nodeType": "ValueNode",
+      "dataType": 43,
+      "dims": [
+        3,
+        2
+      ],
+      "format": "KHWC",
+      "refCount": 0,
+      "offset": 0,
+      "data": [
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        64,
+        0,
+        0,
+        0,
+        64,
+        0,
+        0,
+        160,
+        64,
+        0,
+        0,
+        64,
+        64,
+        0,
+        0,
+        192,
+        64
+      ]
+    },
+    {
+      "nodeType": "ValueNode",
+      "dataType": 43,
+      "dims": [
+        3
+      ],
+      "format": "NHWC",
+      "refCount": 0,
+      "offset": 0,
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "nodeType": "Parameter",
+      "dataType": 0,
+      "format": "NCHW",
+      "refCount": 0,
+      "offset": 0
+    }
+  ]
+}
